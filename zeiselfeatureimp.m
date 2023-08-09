@@ -15,7 +15,7 @@
 % % zeisel_fi_short = reshape(zeisel_fi_short,200,20);
 % % zeisel_fi_short = zeisel_fi_short(:,11:end);
 % % zeisel_fi_short = cell2mat(zeisel_fi_short);
-% % save('Zeisel_FeatureImportance.mat', ...
+% % save('Zeisel_FeatureImportance.mƒat', ...
 % %     'zeisel_fi_all','zeisel_fi_short','zeisel_fi_long');
 % 
 % % Average cell types over broader classes in Zeisel ontology
@@ -1096,7 +1096,7 @@ lambda = 90;
 ng_param_list = 606; %values of nG to test and map, going through genes in MRx3 ranked order
 missmethod = 'MR                                                                                                                    x3'; %gene ranking/subsetting method as a label, options are 'MRx3' and 'none'
 infmethod = 'inv+res'; %inversion method between E and C*D, options are 'inversion', 'inv+res' to also get residuals, and 'corr' for correlation mapping
-savename = 'CellDensity_Tasic_nG606_random.mat'; %set name of file to be saved
+% savename = 'CellDensity_Tasic_nG606_random.mat'; %set name of file to be saved
 niters = 100;
 scrambling = 1;
 Tasic_scrambleddensities_nG606 = zeros(424,length(classkey),niters);
